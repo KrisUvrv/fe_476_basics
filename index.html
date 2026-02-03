@@ -9,46 +9,67 @@
 <title>CPS</title>
 </head>
 <body>
-  <header>
-<!--    <div class="header__wrapper">-->
-      <div class="header__logo-group">
-        <div><a href="#"><img src="./images/burger.svg" alt="burger-menu"></a></div>
-        <div class="divider tablet"><img src="./images/divider.svg" alt="divider"></div>
-        <div><a href="#"><img src="./images/logo.svg" alt="logo"></a></div>
-      </div>
-      <div class="header__actions">
-        <a href="#" class="tablet"><img src="./images/call.svg" alt="call"></a>
-        <a href="#" class="tablet"><img src="./images/chat.svg" alt="chat"></a>
-        <a href="#" class="tablet"><img src="./images/profile.svg" alt="profile"></a>
-        <div class="divider"><img src="./images/divider.svg" alt="divider"></div>
-        <a href="#"><img src="./images/repair.svg" alt="repair"></a>
-        <a href="#"><img src="./images/checkstatus.svg" alt="check status"></a>
-      </div>
-<!--    </div>-->
+
+  <header class="header">
+
+    <div class="header__logo-group">
+      <div><a href="#"><img src="./images/burger.svg" alt="burger-menu icon"></a></div>
+      <div class="divider tablet"><img src="./images/divider.svg" alt="divider"></div>
+      <div><a href="#"><img src="./images/logo.svg" alt="logo"></a></div>
+    </div>
+
+    <div class="header__actions">
+      <a href="#" class="tablet"><img src="./images/call.svg" alt="call"></a>
+      <a href="#" class="tablet"><img src="./images/chat.svg" alt="chat"></a>
+      <a href="#" class="tablet"><img src="./images/profile.svg" alt="profile"></a>
+      <div class="divider"><img src="./images/divider.svg" alt="divider"></div>
+      <a href="#"><img src="./images/repair.svg" alt="repair"></a>
+      <a href="#"><img src="./images/checkstatus.svg" alt="check status"></a>
+    </div>
+
   </header>
+
   <section>
-    <div class="title__wrapper">
+
+    <div class="title">
+
       <img src="./images/highlight.svg" alt="highlight">
-      <h1>Услуги и сервисы</h1>
-      <div class="menu__item desktop">Оставить заявку
-        <img src="./images/repair.svg" alt="repair">
+      <h1 class="title__heading">Услуги и сервисы</h1>
+
+      <div class="title__actions">
+
+        <button class="title__action desktop">Оставить заявку
+          <img src="./images/repair.svg" alt="repair">
+        </button>
+        <button class="title__action desktop">Статус ремонта
+          <img src="./images/checkstatus.svg" alt="check status">
+        </button>
+
       </div>
-      <div class="menu__item desktop">Статус ремонта
-        <img src="./images/checkstatus.svg" alt="check status">
-      </div>
     </div>
-    <div class="slidemenu__wrapper">
-      <div class="slidemenu__item slidemenu__item_active">Ремонтируемые устройства</div>
-      <div class="slidemenu__item">Дополнительные услуги</div>
-      <div class="slidemenu__item">Цены на услуги</div>
-      <div class="slidemenu__item">Специальные цены</div>
-      <div class="slidemenu__item">Адреса сервисных центров</div>
-    </div>
-    <div class="desktop slidemenu__wrapper">
-      <div class="slidemenu__item">Отзывы</div>
-    </div>
-    <div class="content__wrapper">
+
+    <nav class="slidemenu__wrapper">
+
+      <ul class="slidemenu">
+        <li><a href="#" class="slidemenu__item slidemenu__item_active">Ремонтируемые устройства</a></li>
+        <li><a href="#" class="slidemenu__item">Дополнительные услуги</a></li>
+        <li><a href="#" class="slidemenu__item">Цены на услуги</a></li>
+        <li><a href="#" class="slidemenu__item">Специальные цены</a></li>
+        <li><a href="#" class="slidemenu__item">Адреса сервисных центров</a></li>
+      </ul>
+
+      <div class="slidemenu__shadow"></div>
+
+    </nav>
+
+    <ul class="desktop slidemenu">
+      <li><a href="#" class="slidemenu__item">Отзывы</a></li>
+    </ul>
+
+    <div class="content">
+
       <div>
+
         <div class="content__text">
           <p>
             Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать
@@ -59,15 +80,22 @@
             Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="desktop">что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
           </p>
         </div>
+
         <div class="readmore">
           <img src="./images/ReadMore.svg" alt="read more">
         </div>
+
       </div>
+
       <div>
         <img src="./images/CPS.svg" alt="image about us" class="content__img">
       </div>
+
     </div>
+
   </section>
+
   <footer></footer>
+
 </body>
 </html>
