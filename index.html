@@ -5,28 +5,69 @@
 <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="./styles/global.css">
-<link rel="stylesheet" href="./styles/components.css">
-<link rel="stylesheet" href="./styles/page.css">
-<link rel="stylesheet" href="./styles/header.css">
-<link rel="stylesheet" href="./styles/footer.css">
+<link rel="stylesheet" href="./styles/styles.css">
 <title>CPS</title>
 </head>
 <body>
   <header>
-    <div class="container header__wrapper">
-      <div class="header__menu"><a href="#"><img src="./images/burger.svg" alt="burger-menu"></a></div>
-      <div class="header__logo"><a href="#"><img src="./images/logo.svg" alt="logo"></a></div>
-      <div class="divider"><img src="./images/divider.svg" alt="divider"></div>
-      <nav>
-        <ul class="header__menu">
-        <li><a href="#"><img src="./images/repair.svg" alt="repair"></a></li>
-        <li><a href="#"><img src="./images/checkstatus.svg" alt="check status"></a></li>
-      </ul>
-      </nav>
-    </div>
+<!--    <div class="header__wrapper">-->
+      <div class="header__logo-group">
+        <div><a href="#"><img src="./images/burger.svg" alt="burger-menu"></a></div>
+        <div class="divider tablet"><img src="./images/divider.svg" alt="divider"></div>
+        <div><a href="#"><img src="./images/logo.svg" alt="logo"></a></div>
+      </div>
+      <div class="header__actions">
+        <a href="#" class="tablet"><img src="./images/call.svg" alt="call"></a>
+        <a href="#" class="tablet"><img src="./images/chat.svg" alt="chat"></a>
+        <a href="#" class="tablet"><img src="./images/profile.svg" alt="profile"></a>
+        <div class="divider"><img src="./images/divider.svg" alt="divider"></div>
+        <a href="#"><img src="./images/repair.svg" alt="repair"></a>
+        <a href="#"><img src="./images/checkstatus.svg" alt="check status"></a>
+      </div>
+<!--    </div>-->
   </header>
-  <section></section>
+  <section>
+    <div class="title__wrapper">
+      <img src="./images/highlight.svg" alt="highlight">
+      <h1>Услуги и сервисы</h1>
+      <div class="menu__item desktop">Оставить заявку
+        <img src="./images/repair.svg" alt="repair">
+      </div>
+      <div class="menu__item desktop">Статус ремонта
+        <img src="./images/checkstatus.svg" alt="check status">
+      </div>
+    </div>
+    <div class="slidemenu__wrapper">
+      <div class="slidemenu__item slidemenu__item_active">Ремонтируемые устройства</div>
+      <div class="slidemenu__item">Дополнительные услуги</div>
+      <div class="slidemenu__item">Цены на услуги</div>
+      <div class="slidemenu__item">Специальные цены</div>
+      <div class="slidemenu__item">Адреса сервисных центров</div>
+    </div>
+    <div class="desktop slidemenu__wrapper">
+      <div class="slidemenu__item">Отзывы</div>
+    </div>
+    <div class="content__wrapper">
+      <div>
+        <div class="content__text">
+          <p>
+            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать
+            свой
+            ноутбук Dell с официальной гарантией производителя.
+          </p>
+          <p class="tablet">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="desktop">что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
+          </p>
+        </div>
+        <div class="readmore">
+          <img src="./images/ReadMore.svg" alt="read more">
+        </div>
+      </div>
+      <div>
+        <img src="./images/CPS.svg" alt="image about us" class="content__img">
+      </div>
+    </div>
+  </section>
   <footer></footer>
 </body>
 </html>
